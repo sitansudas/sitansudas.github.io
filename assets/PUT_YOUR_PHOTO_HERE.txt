@@ -1,0 +1,8 @@
+Add your real profile photo here, named exactly:
+
+    profile.jpg
+
+The hero section looks for assets/profile.jpg. Until you add it, an
+"SD" placeholder avatar (profile-placeholder.svg) is shown automatically.
+A square-ish, well-lit headshot around 400x400px or larger works best.
+Delete this text file once you've added your photo.

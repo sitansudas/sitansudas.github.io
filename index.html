@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sitansu Das | DevOps Engineer</title>
+<meta name="description" content="Sitansu Das — DevOps Engineer. CI/CD, Cloud Infrastructure, Automation." />
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Background grid + glow -->
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+<div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+
+<!-- NAV -->
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a class="brand" href="#top">
+      <span class="brand-icon">&#9096;</span>
+      <span>Sitansu<span class="accent">.</span>ops</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#top">home</a>
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#timeline">timeline</a>
+      <a href="#terminal">terminal</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <div class="nav-actions">
+      <span class="status-pill"><span class="dot dot-live"></span>Open to work</span>
+      <a class="btn btn-ghost btn-sm" href="assets/resume.pdf" download>Resume &#8595;</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <div class="hero-avatar">
+          <img src="assets/profile.jpg" alt="Sitansu Das" onerror="this.onerror=null;this.src='assets/profile-placeholder.svg';" />
+        </div>
+        <p class="eyebrow"><span class="dot dot-live"></span> systems nominal — Bengaluru, IN</p>
+        <h1>Hey, I'm <span class="accent">Sitansu Das</span></h1>
+        <h2 class="role-line">&gt; <span id="typedRole">DevOps Engineer</span><span class="cursor">_</span></h2>
+        <p class="hero-sub">
+          I build and automate the plumbing behind reliable software — CI/CD pipelines,
+          cloud infrastructure, and the tooling that keeps deployments boring (in a good way).
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects &rarr;</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/sitansudas" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+          <a href="https://linkedin.com/in/sitansu-das-6003a0312" target="_blank" rel="noopener" aria-label="LinkedIn">IN</a>
+          <a href="mailto:sitansudas52@gmail.com" aria-label="Email">@</a>
+        </div>
+      </div>
+
+      <div class="hero-panel">
+        <div class="panel-head">
+          <span class="panel-dot red"></span><span class="panel-dot yellow"></span><span class="panel-dot green"></span>
+          <span class="panel-title">cloud-ops-center — zsh</span>
+        </div>
+        <div class="panel-body" id="bootLog">
+          <!-- boot lines injected by JS -->
+        </div>
+        <div class="panel-status">
+          <span class="dot dot-live"></span> All systems operational
+        </div>
+      </div>
+    </div>
+
+    <!-- tool status strip -->
+    <div class="tool-strip" id="toolStrip">
+      <div class="tool-chip"><span class="tool-emoji">☁️</span><div><p>AWS</p><span class="tool-status"><span class="dot dot-live"></span>Practicing</span></div></div>
+      <div class="tool-chip"><span class="tool-emoji">🐳</span><div><p>Docker</p><span class="tool-status"><span class="dot dot-live"></span>Hands-on</span></div></div>
+      <div class="tool-chip"><span class="tool-emoji">☸️</span><div><p>Kubernetes</p><span class="tool-status"><span class="dot dot-live"></span>Learning</span></div></div>
+      <div class="tool-chip"><span class="tool-emoji">🟪</span><div><p>Terraform</p><span class="tool-status"><span class="dot dot-live"></span>Hands-on</span></div></div>
+      <div class="tool-chip"><span class="tool-emoji">🔧</span><div><p>Jenkins</p><span class="tool-status"><span class="dot dot-live"></span>Practicing</span></div></div>
+      <div class="tool-chip"><span class="tool-emoji">📦</span><div><p>Ansible</p><span class="tool-status"><span class="dot dot-live"></span>Hands-on</span></div></div>
+    </div>
+  </section>
+
+  <!-- BENTO GRID -->
+  <section class="bento" id="bento">
+
+    <!-- ABOUT -->
+    <article class="card card-about" id="about">
+      <h3 class="card-title"><span class="ico">👤</span> About me</h3>
+      <p>
+        I'm a fresher DevOps Engineer with a B.Sc. in Computer Science, based in
+        Bengaluru. I got into this field because I like watching messy, manual
+        processes turn into pipelines that just run — automation, cloud
+        infrastructure, and continuous improvement are what I spend my free time on.
+      </p>
+      <ul class="about-list">
+        <li>🐧 Linux &amp; shell scripting enthusiast</li>
+        <li>☁️ Cloud &amp; infrastructure automation (AWS, Terraform, Ansible)</li>
+        <li>🔁 CI/CD pipelines — Jenkins, Docker, ArgoCD</li>
+        <li>🧩 Builds real projects to learn, not just tutorials</li>
+      </ul>
+      <a href="#contact" class="btn btn-ghost btn-sm">Let's talk &rarr;</a>
+    </article>
+
+    <!-- SKILLS -->
+    <article class="card card-skills" id="skills">
+      <h3 class="card-title"><span class="ico">&lt;/&gt;</span> Skills</h3>
+      <div class="skill-list">
+        <div class="skill-row"><span>Linux</span><div class="bar"><i style="--w:90%"></i></div><b>90%</b></div>
+        <div class="skill-row"><span>Git &amp; GitHub</span><div class="bar"><i style="--w:90%"></i></div><b>90%</b></div>
+        <div class="skill-row"><span>Docker</span><div class="bar"><i style="--w:85%"></i></div><b>85%</b></div>
+        <div class="skill-row"><span>AWS</span><div class="bar"><i style="--w:80%"></i></div><b>80%</b></div>
+        <div class="skill-row"><span>Kubernetes</span><div class="bar"><i style="--w:75%"></i></div><b>75%</b></div>
+        <div class="skill-row"><span>Terraform</span><div class="bar"><i style="--w:80%"></i></div><b>80%</b></div>
+        <div class="skill-row"><span>Jenkins / CI-CD</span><div class="bar"><i style="--w:80%"></i></div><b>80%</b></div>
+        <div class="skill-row"><span>Ansible</span><div class="bar"><i style="--w:75%"></i></div><b>75%</b></div>
+        <div class="skill-row"><span>Python</span><div class="bar"><i style="--w:75%"></i></div><b>75%</b></div>
+        <div class="skill-row"><span>Prometheus &amp; Grafana</span><div class="bar"><i style="--w:70%"></i></div><b>70%</b></div>
+      </div>
+    </article>
+
+    <!-- TIMELINE -->
+    <article class="card card-timeline" id="timeline">
+      <h3 class="card-title"><span class="ico">⏱</span> Timeline</h3>
+      <ol class="timeline">
+        <li>
+          <span class="tl-year">2022</span>
+          <div><p class="tl-title">Started B.Sc. in Computer Science</p><p class="tl-desc">Built the fundamentals — programming, OS, networks.</p></div>
+        </li>
+        <li>
+          <span class="tl-year">2024</span>
+          <div><p class="tl-title">Discovered Linux &amp; Cloud</p><p class="tl-desc">Went down the terminal rabbit hole and never came back.</p></div>
+        </li>
+        <li>
+          <span class="tl-year">2025</span>
+          <div><p class="tl-title">Docker, Terraform, Jenkins, K8s</p><p class="tl-desc">Went hands-on with the core DevOps toolchain.</p></div>
+        </li>
+        <li>
+          <span class="tl-year">2026</span>
+          <div><p class="tl-title">Building &amp; job hunting</p><p class="tl-desc">Shipping real projects, interviewing for DevOps roles.</p></div>
+        </li>
+      </ol>
+    </article>
+
+    <!-- FEATURED PROJECTS -->
+    <article class="card card-projects" id="projects">
+      <h3 class="card-title"><span class="ico">🚀</span> Featured Projects</h3>
+
+      <div class="project">
+        <div class="project-head">
+          <p class="project-name">DevOps CI/CD Pipeline</p>
+          <a href="#" target="_blank" rel="noopener" class="project-link">Source Code &rarr;</a>
+        </div>
+        <p class="project-desc">Automated build-to-deploy pipeline using Jenkins, Docker and ArgoCD, deploying to Kubernetes.</p>
+        <div class="flow">
+          <span>GitHub</span><i>&rarr;</i><span>Jenkins</span><i>&rarr;</i><span>Docker Build</span><i>&rarr;</i><span>ArgoCD</span><i>&rarr;</i><span>K8s</span>
+        </div>
+        <div class="chips"><span>Jenkins</span><span>Docker</span><span>ArgoCD</span><span>Kubernetes</span></div>
+      </div>
+
+      <div class="project">
+        <div class="project-head">
+          <p class="project-name">Infrastructure Automation</p>
+          <a href="#" target="_blank" rel="noopener" class="project-link">Source Code &rarr;</a>
+        </div>
+        <p class="project-desc">Provisioned AWS infrastructure (VPC, EC2, S3, IAM) with Terraform, configured via Ansible.</p>
+        <div class="flow">
+          <span>Terraform</span><i>&rarr;</i><span>AWS</span><i>&rarr;</i><span>Ansible</span><i>&rarr;</i><span>Configured Infra</span>
+        </div>
+        <div class="chips"><span>Terraform</span><span>Ansible</span><span>AWS</span></div>
+      </div>
+
+      <div class="project">
+        <div class="project-head">
+          <p class="project-name">Internal DevOps Utilities API</p>
+          <a href="https://github.com/sitansudas/python-mini-project-sitansu" target="_blank" rel="noopener" class="project-link">Source Code &rarr;</a>
+        </div>
+        <p class="project-desc">A FastAPI service exposing system &amp; AWS utility endpoints using Boto3 and psutil.</p>
+        <div class="flow">
+          <span>FastAPI</span><i>&rarr;</i><span>Boto3</span><i>&rarr;</i><span>psutil</span><i>&rarr;</i><span>REST API</span>
+        </div>
+        <div class="chips"><span>Python</span><span>FastAPI</span><span>Boto3</span></div>
+      </div>
+    </article>
+
+    <!-- GITHUB STATS -->
+    <article class="card card-github">
+      <h3 class="card-title"><span class="ico">🐙</span> GitHub Stats</h3>
+      <div class="gh-profile">
+        <img id="ghAvatar" src="https://github.com/sitansudas.png" alt="GitHub avatar" />
+        <div>
+          <p class="gh-name">@sitansudas</p>
+          <p class="gh-role">DevOps Engineer</p>
+        </div>
+      </div>
+      <div class="gh-numbers" id="ghNumbers">
+        <div><b id="ghRepos">—</b><span>Repos</span></div>
+        <div><b id="ghFollowers">—</b><span>Followers</span></div>
+        <div><b id="ghFollowing">—</b><span>Following</span></div>
+      </div>
+      <img class="gh-chart" src="https://ghchart.rshah.org/3b82f6/sitansudas" alt="GitHub contribution chart" loading="lazy" />
+    </article>
+
+    <!-- TERMINAL -->
+    <article class="card card-terminal" id="terminal">
+      <h3 class="card-title"><span class="ico">&gt;_</span> Cloud Terminal</h3>
+      <div class="terminal-window" id="terminalWindow">
+        <div class="terminal-lines" id="terminalLines">
+          <p class="t-line t-muted">sitansu@cloudops:~$ help</p>
+          <p class="t-line t-muted">Available commands:</p>
+          <p class="t-line t-muted">  about · skills · projects · experience · education</p>
+          <p class="t-line t-muted">  github · resume · contact · whoami · clear</p>
+        </div>
+        <div class="terminal-input-row">
+          <span class="prompt">sitansu@cloudops:~$</span>
+          <input type="text" id="terminalInput" autocomplete="off" spellcheck="false" aria-label="Terminal input" />
+        </div>
+      </div>
+    </article>
+
+    <!-- NUMBERS -->
+    <article class="card card-numbers">
+      <h3 class="card-title"><span class="ico">📊</span> By the numbers</h3>
+      <div class="numbers-grid">
+        <div class="num-box num-blue"><b>3+</b><span>Portfolio Projects</span></div>
+        <div class="num-box num-purple"><b>15+</b><span>Tools &amp; Technologies</span></div>
+        <div class="num-box num-green"><b>10+</b><span>GitHub Repos</span></div>
+        <div class="num-box num-red"><b>100%</b><span>Drive to learn</span></div>
+      </div>
+    </article>
+
+    <!-- CONTACT -->
+    <article class="card card-contact" id="contact">
+      <h3 class="card-title"><span class="ico">✉</span> Contact me</h3>
+      <ul class="contact-list">
+        <li><span class="ico">📧</span><div><p>Email</p><a href="mailto:sitansudas52@gmail.com">sitansudas52@gmail.com</a></div></li>
+        <li><span class="ico">💼</span><div><p>LinkedIn</p><a href="https://linkedin.com/in/sitansu-das-6003a0312" target="_blank" rel="noopener">linkedin.com/in/sitansu-das</a></div></li>
+        <li><span class="ico">🐙</span><div><p>GitHub</p><a href="https://github.com/sitansudas" target="_blank" rel="noopener">github.com/sitansudas</a></div></li>
+        <li><span class="ico">📍</span><div><p>Location</p><span>Bengaluru, Karnataka, India</span></div></li>
+      </ul>
+      <a class="btn btn-primary btn-block" href="mailto:sitansudas52@gmail.com">Say hello &rarr;</a>
+    </article>
+
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Sitansu Das. All rights reserved.</p>
+  <p>Built with HTML, CSS &amp; vanilla JS.</p>
+  <a href="#top" class="back-top">Back to top &uarr;</a>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

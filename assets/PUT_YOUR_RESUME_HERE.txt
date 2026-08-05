@@ -1,0 +1,8 @@
+Add your real resume PDF here, named exactly:
+
+    resume.pdf
+
+The "Resume" button in the top navigation links to assets/resume.pdf,
+so once you drop your file in this folder with that exact name, the
+download button will work automatically. Delete this text file once
+you've added it (it's just a placeholder note).
